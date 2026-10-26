@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ytpipe</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fb4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #17181a; --fg: #e8e8ea; --muted: #a0a3a8; --link: #8ab4f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 1rem; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--link); }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ytpipe</h1>
+  <p>ytpipe is the private publishing tool behind the
+     <a href="https://www.youtube.com/@curionaut">Curionaut</a> YouTube channel.
+     It prepares the channel's own videos, uploads and schedules them, adds their
+     thumbnails, captions and playlist entries, and reads the channel's own
+     YouTube Analytics reports.</p>
+  <p>It is not a public service. The only Google account that signs in to it is
+     the channel owner's, and it runs on the owner's own computer.</p>
+  <p><a href="privacy.html">Privacy policy</a></p>
+  <footer>ytpipe uses YouTube API Services.</footer>
+</main>
+</body>
+</html>
